@@ -3,12 +3,10 @@
   border: solid black 1px;
   border-radius: 10px;
   opacity: 0.75;
-  filter: alpha(opacity=75);
 }
 
 .tweet:hover {
   opacity: 1;
-  filter: alpha(opacity=100);
 }
 
 .tweet header {
@@ -38,8 +36,14 @@
   border-top: solid black 1px;
 }
 
-.tweet footer .icons {
+.tweet .icons {
   float: right;
+  opacity: 0;
+}
+
+.tweet:hover .icons {
+  float: right;
+  opacity: 1;
 }
 
 .tweet .icons svg {
