@@ -9,7 +9,7 @@
   background-color: #eee;
 }
 
-h2 {
+.new-tweet h2 {
   margin: 0;
   text-align: left;
   border-bottom: solid black 1px;
@@ -26,5 +26,4 @@ float: left;
 
 .counter {
  float: right;
-
 }
