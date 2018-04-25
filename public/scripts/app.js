@@ -1,5 +1,4 @@
 $(function() {
-
   const data = [
     {
       "user": {
