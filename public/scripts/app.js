@@ -85,17 +85,29 @@ function createTweetElement(tweetObject) {
   return $tweet;
 };
 
-$('form').on('submit', function () {
-  event.preventDefault();
+$('form').on('submit', function (e) {
   const data = $(this).serialize();
+  const tweetContent = ($.trim($(this.text).val()));
+
+  if (tweetContent.length === 0) {
+    var $errMsg = "Error: cannot submit an empty tweet!";
+  } else if (tweetContent.length > 140) {
+    var $errMsg = "Error: cannot submit tweet exceeding 140 characters!";
+    e.preventDefault();
+    return $(".new-tweet .error").text($errMsg);
+  }
+
+  $(".new-tweet .error").text($errMsg);
+
+  e.preventDefault();
+
   $.ajax({
     method: 'POST',
     url: '/tweets/',
     data: data
-  }).done(function () {
-    loadTweets();
-  }).fail(function () {
-    alert( "LOL epic fail!!!!111!!" )
+  }).done(function (e) {
+    loadTweets()
+  }).fail(function (e) {
   })
 });
 
