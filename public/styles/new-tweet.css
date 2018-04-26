@@ -3,10 +3,19 @@
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  margin: 20px 20px;
+  margin: 0px 20px 20px 20px;
   border: solid black 1px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #eee;
+}
+
+.container {
+   background-color: #ffffff;
+   padding: 100px 0px;
+   text-align: center;
+   margin: 0 auto;
+   width: 450px;
+   z-index: 1;
 }
 
 .new-tweet h2 {
@@ -16,6 +25,7 @@
 }
 
 textarea {
+  padding: 4px;
   margin-top: 20px;
   width: 100%;
 }
@@ -26,4 +36,9 @@ float: left;
 
 .counter {
  float: right;
+}
+
+.new-tweet .error {
+  margin: 0;
+  padding:0
 }

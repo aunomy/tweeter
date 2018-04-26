@@ -18,18 +18,24 @@
  }
 
  #nav-bar .header {
-   float: left;
+   overflow: hidden;
+   position: fixed;
    line-height: 80px;
    text-align: center;
    color: #e8fdff;
    font-size: 200%;
  }
 
-.container {
-   background-color: #ffffff;
-   padding: 140px 0px;
-   text-align: center;
-   margin: 0 auto;
-   width: 450px;
-   z-index: 1;
+.toggle {
+  padding: 5px 15px;
+  margin-top: 25px;
+  float: right;
+  opacity: 0.85;
+  border-radius: 5px;
+  color: #00a087
+}
+
+.toggle:hover {
+  opacity: 1;
+  color: #000
 }
