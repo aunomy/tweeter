@@ -9,6 +9,11 @@
   opacity: 1;
 }
 
+.tweet p {
+  word-wrap: break-word;
+  white-space: initial;
+}
+
 .tweet header {
   height: 60px;
   background-color: #eee;

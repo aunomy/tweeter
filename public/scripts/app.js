@@ -16,7 +16,7 @@ function renderTweets(tweetData) {
 
 function createTweetElement(tweetObject) {
 
-  let $tweet = $("<article>").addClass("tweet")
+    let $tweet = $("<article>").addClass("tweet")
 
     const header = $("<header>")
 
@@ -29,7 +29,6 @@ function createTweetElement(tweetObject) {
     $("<p>").text(tweetObject.content.text).appendTo($tweet);
 
     const footer = $("<footer>")
-
 
     const icons = $("<span>").addClass("icons")
 
