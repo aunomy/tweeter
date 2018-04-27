@@ -1,3 +1,4 @@
+// Counts remaining characters, validates and displays in color
 $(document).ready(function(event) {
   $(".new-tweet").find("textarea").on("keyup", function(event) {
     const inputValue = $(this).val();

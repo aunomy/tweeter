@@ -1,14 +1,14 @@
 #nav-bar {
-  position: fixed;
-  background-color: #00a087;
-  height: 80px;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding-left: 2em;
-  padding-right: 2em;
-  z-index: 100;
-}
+   position: fixed;
+   background-color: #00a087;
+   height: 80px;
+   top: 0;
+   left: 0;
+   right: 0;
+   padding-left: 2em;
+   padding-right: 2em;
+   z-index: 100;
+ }
 
  #nav-bar .logo {
    float: left;
@@ -26,16 +26,16 @@
    font-size: 200%;
  }
 
-.toggle {
-  padding: 5px 15px;
-  margin-top: 25px;
-  float: right;
-  opacity: 0.85;
-  border-radius: 5px;
-  color: #00a087
-}
+ #nav-bar .toggle {
+   padding: 5px 15px;
+   margin-top: 25px;
+   float: right;
+   opacity: 0.85;
+   border-radius: 5px;
+   color: #00a087
+ }
 
-.toggle:hover {
-  opacity: 1;
-  color: #000
-}
+ #nav-bar .toggle:hover {
+   opacity: 1;
+   color: #000
+ }

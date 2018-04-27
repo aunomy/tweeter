@@ -1,6 +1,6 @@
 .container .new-tweet {
   padding-top: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 35px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0px 20px 20px 20px;
@@ -9,36 +9,35 @@
   background-color: #eee;
 }
 
-.container {
-   background-color: #ffffff;
-   padding: 100px 0px;
-   text-align: center;
-   margin: 0 auto;
-   width: 450px;
-   z-index: 1;
-}
-
 .new-tweet h2 {
   margin: 0;
   text-align: left;
   border-bottom: solid black 1px;
 }
 
-textarea {
+.new-tweet textarea {
+  resize: vertical;
   padding: 4px;
   margin-top: 20px;
   width: 100%;
 }
 
-input {
-float: left;
+.new-tweet input {
+  border-radius: 3px;
+  margin-top: 3px;
+  float: left;
 }
 
-.counter {
+.new-tweet .counter {
+ padding-top: 6px;
  float: right;
+ font-size: 85%;
+ font-style: italic;
 }
 
 .new-tweet .error {
+  font-size: 95%;
   margin: 0;
-  padding:0
+  padding: 0;
+  color: red;
 }

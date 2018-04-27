@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta Information -->
+    <!-- Adaptive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Metainfo -->
     <title>Tweeter - Home Page</title>
 
     <!-- External CSS -->
@@ -13,8 +16,10 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
     <link rel="stylesheet" href="/styles/tweet-post.css" type="text/css" />
+
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="/vendor/moment.js"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/app.js"></script>
@@ -25,7 +30,7 @@
   </head>
 
   <body>
-    <!-- Top nav bar (fixed) -->
+    <!-- Navbar -->
     <nav id="nav-bar">
       <button class="toggle">
         <i class="far fa-edit"></i> Compose
@@ -34,19 +39,18 @@
       <span class="header">Tweeter</span>
     </nav>
 
-    <!-- Page-specific (main) content here -->
+    <!-- Page-specific content -->
     <main class="container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form action="/tweets/" method="post">
           <textarea name="text" placeholder="What are you humming about?"></textarea>
-          <input type="submit" value="Tweet">
+          <input id="tweetSubmit" type="submit" value="Tweet">
           <span class="counter">140</span>
        </form>
-       <p class="error"></p>
+      <p class="error"></p>
       </section>
       <section id="tweets">
-
       </section>
     </main>
 
