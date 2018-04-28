@@ -7,26 +7,24 @@ Tweeter was built using HTML, CSS, JS, and [jQuery](https://jquery.com/)/AJAX on
 ## Final Product
 
 Creating and posting a new tweet
-!["Hover and compose"]()
-
+!["Hover and compose"](https://github.com/aunomy/tweeter/blob/master/docs/hover-and-compose.gif?raw=true)
 
 Error handling
-!["Error handling"]()
-
+!["Error handling"](https://github.com/aunomy/tweeter/blob/master/docs/error-handling.gif?raw=true)
 
 Home page
-!["Home page"]()
+!["Home page"](https://github.com/aunomy/tweeter/blob/master/docs/home-page.png?raw=true)
 
 ## Dependencies
 
 ```
-- [body-parser](https://www.npmjs.com/package/body-parser)
-- [Chance.js](http://chancejs.com/)
-- [Express](https://expressjs.com/)
+- body-parser
+- Chance.js
+- Express
 - MD5
-- [Moment.js](https://momentjs.com/)
-- [MongoDB](https://www.mongodb.com/)
-- [Node.js 5.10.x or above](https://nodejs.org/en/)
+- Moment.js
+- MongoDB
+- Node.js 5.10.x or above
 ```
 
 ## Getting Started
