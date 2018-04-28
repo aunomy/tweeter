@@ -29,7 +29,7 @@ Home page
 
 ## Getting Started
 
-1. Install all dependencies (`npm install`)
+1. Install all dependencies (`npm install`).
 2. Start the web server (`npm run local`). The app will be served at <http://localhost:8080/>.
 3. Visit <http://localhost:8080/> in your browser.
 4. Start tweeting!
