@@ -7,10 +7,10 @@ Tweeter was built using HTML, CSS, JS, and [jQuery](https://jquery.com/)/AJAX on
 ## Final Product
 
 Creating and posting a new tweet
-!["Hover and compose"](https://github.com/aunomy/tweeter/blob/master/docs/hover-and-compose.gif?raw=true)
+!["Hover and compose"](https://github.com/aunomy/tweeter/blob/master/docs/compose.gif?raw=true)
 
 Error handling
-!["Error handling"](https://github.com/aunomy/tweeter/blob/master/docs/error-handling.gif?raw=true)
+!["Error handling"](https://github.com/aunomy/tweeter/blob/master/docs/errors.gif?raw=true)
 
 Home page
 !["Home page"](https://github.com/aunomy/tweeter/blob/master/docs/home-page.png?raw=true)
